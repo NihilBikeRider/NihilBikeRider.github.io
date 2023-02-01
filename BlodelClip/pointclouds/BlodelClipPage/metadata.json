@@ -9,12 +9,12 @@
 		"stepSize": 4, 
 		"depth": 4
 	},
-	"offset": [551827.20299999998, 5277700.6150000002, 16.051000000000002],
+	"offset": [551827.20300292969, 5277700.6149997711, 16.051000595092773],
 	"scale": [0.001, 0.001, 0.001],
-	"spacing": 2.377414062502794,
+	"spacing": 2.3774142265319824,
 	"boundingBox": {
-		"min": [551827.20299999998, 5277700.6150000002, 16.051000000000002], 
-		"max": [552131.51200000034, 5278004.9240000006, 320.36000000035762]
+		"min": [551827.20300292969, 5277700.6149997711, 16.051000595092773], 
+		"max": [552131.51202392578, 5278004.9240207672, 320.36002159118652]
 	},
 	"encoding": "DEFAULT",
 	"attributes": [
@@ -125,8 +125,41 @@
 			"numElements": 1,
 			"elementSize": 8,
 			"type": "double",
-			"min": [302397592.35304505],
-			"max": [302399632.69708759],
+			"min": [302397592.35302734],
+			"max": [302399632.69726562],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "Red",
+			"description": "Red image channel value",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [65280],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "Green",
+			"description": "Green image channel value",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [65280],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "Blue",
+			"description": "Blue image channel value",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [65280],
 			"scale": [1],
 			"offset": [0]
 		}
